@@ -9,7 +9,6 @@ function TwitterCard({ author, content }) {
 
     const handleClick = () => {
         setLiked(!liked)
-        console.log(liked);
     }
 
     return (
