@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "author": "Catherine",
+      "content": "Hola Twitter!"
+    },
+    {
+      "id": 2,
+      "author": "Javier",
+      "content": "Primer Twitt!"
+    },
+    {
+      "id": 3,
+      "author": "Alejandro",
+      "content": "Que es esto?"
+    },
+    {
+      "id": 4,
+      "author": "Diego",
+      "content": "Esta horrible mejor X"
+    },
+    {
+      "id": 5,
+      "author": "Nancy",
+      "content": "En ADL aprendo programacion"
+    },
+    {
+      "id": 6,
+      "author": "Angelli",
+      "content": "No entiendo nada"
+    }
+]
