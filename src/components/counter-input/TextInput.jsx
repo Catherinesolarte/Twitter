@@ -1,22 +1,24 @@
-import { useState } from "react"
+// TextInput.js
+import { useState } from "react";
 
 function TextInput() {
-    //declarar ese estado
+  // Estado para almacenar el texto ingresado
+  const [text, setText] = useState("");
 
-    const [text, setText] = useState('')
-
-    return (
-        <div>
-            <input
-                className="border mt-2"
-                type="text"
-                value={text}
-                onChange={(e) => { setText(e.target.value) }}
-                placeholder="escribe algo aqui"
-            />
-            <p>{text}</p>
-        </div>
-    )
+  return (
+    <div className="p-4">
+      {/* Entrada de texto */}
+      <input
+        className="border p-2 w-full rounded"
+        type="text"
+        value={text}
+        onChange={(e) => setText(e.target.value)}
+        placeholder="Escribe algo aquí"
+      />
+      {/* Mostrar el texto ingresado */}
+      <p className="mt-2 text-gray-700">{text}</p>
+    </div>
+  );
 }
 
-export default TextInput
+export default TextInput;
